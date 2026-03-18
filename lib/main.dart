@@ -26,6 +26,7 @@ import '/data/twitch_account.dart';
 import '/data/webview/cookie_data.dart';
 import '/app.dart';
 import 'data/filesharing/uploaded_media.dart';
+import 'data/legacy_migration.dart';
 import 'tmi/client/client.dart';
 
 Future<void> main() async {
@@ -60,21 +61,34 @@ Future<void> main() async {
   final settingsBox = await Hive.openBox('Settings');
   final channelsBox = await Hive.openBox('Channels');
 
-  await Hive.openBox('MessageTriggers');
-  await Hive.openBox('UserTriggers');
-  await Hive.openBox('CustomCommands');
+  final messageTriggersBox = await Hive.openBox('MessageTriggers');
+  final userTriggersBox = await Hive.openBox('UserTriggers');
+  final customCommandsBox = await Hive.openBox('CustomCommands');
   await Hive.openBox('ChatSettings');
+
+  await importLegacySettings(
+    twitchAccountsBox,
+    accountSettingsBox,
+    settingsBox,
+    customCommandsBox,
+    messageTriggersBox,
+    userTriggersBox,
+  );
 
   // await settingsBox.clear();
 
   final activeTwitchAccount = twitchAccountsBox.values.firstWhere(
-    (element) => accountSettingsBox.get('activeTwitchAccount') == element.tokenData.hash,
+    (element) =>
+        accountSettingsBox.get('activeTwitchAccount') == element.tokenData.hash,
     orElse: () => null,
   );
 
-  if (!settingsBox.containsKey('messageAppearance')) await settingsBox.put('messageAppearance', MessageAppearance());
-  if (!settingsBox.containsKey('applicationAppearance')) await settingsBox.put('applicationAppearance', ApplicationAppearance());
-  if (!settingsBox.containsKey('chatSettings')) await settingsBox.put('chatSettings', ChatSettings());
+  if (!settingsBox.containsKey('messageAppearance'))
+    await settingsBox.put('messageAppearance', MessageAppearance());
+  if (!settingsBox.containsKey('applicationAppearance'))
+    await settingsBox.put('applicationAppearance', ApplicationAppearance());
+  if (!settingsBox.containsKey('chatSettings'))
+    await settingsBox.put('chatSettings', ChatSettings());
 
   runApp(
     MultiProvider(
