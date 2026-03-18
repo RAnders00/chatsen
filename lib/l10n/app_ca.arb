@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "S'ha iniciat la sessió mitjançant {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "Condicions del Servei",
+  "privacyPolicy": "Política de Privacitat",
+  "settings": "Configuració",
+  "expiresNever": "No caduca mai",
+  "expiresIn": "Caduca en {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "Tanca",
+  "add": "Afegeix",
+  "cancel": "Cancel·la",
+  "tokenInput": "Introdueix el token",
+  "account": "Compte",
+  "refreshAccount": "Actualitza el compte",
+  "removeAccount": "Suprimeix el compte",
+  "addAnotherAccount": "Afegeix un compte",
+  "verifiedUserData": "Dades d'usuari verificades!",
+  "loggedInAs": "S'ha iniciat la sessió com {user}",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "S'ha produït un error en verificar les dades de l'usuari:",
+  "verifyingUserData": "Verificant les dades de l'usuari...",
+  "verifiedUserToken": "Token de l'usuari verificat!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "S'ha produït un error en verificar el token de l'usuari:",
+  "verifyingUserToken": "Verificant el token de l'usuari...",
+  "searchForChannels": "Cerca canals",
+  "recommendedChannels": "Canals recomanats",
+  "popularChannels": "Canals populars",
+  "channel": "Canal",
+  "leaveChannel": "Deixa el canal",
+  "joinUser": "Uneix-te a {user}",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "La revisió ha fallat! Potser has volgut cercar {username}?",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "Uneix-te a {channel}",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "Envia missatge en {channel}",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "Clar",
+  "dark": "Fosc",
+  "system": "Sistema",
+  "appearance": "Aparença",
+  "highContrast": "Alt contrast",
+  "playStream": "Reproduir Stream",
+  "stopStream": "Atura stream",
+  "customCommand": "Comanda personalitzada",
+  "customCommands": "Comandes personalitzades",
+  "newCustomCommand": "Nova comanda personalitzada",
+  "commandTrigger": "Activador",
+  "command": "Comanda",
+  "save": "Desa",
+  "browserStreamSettings": "Configuració del navegador/Retransmissió",
+  "addPage": "Afegir una pàgina",
+  "channelStream": "Retransmissió de {channel}",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "Obre al navegador",
+  "messageAppearance": "Aparença del missatge",
+  "showTimestamps": "Mostrar segells de temps",
+  "compactMessages": "Missatges compactes",
+  "messageTrigger": "Activador de missatge",
+  "pattern": "Patró",
+  "mention": "Menció",
+  "block": "Bloquejar",
+  "enableRegex": "Activar regex",
+  "caseSensitive": "Sensible a majúscules i minúscules",
+  "messageTriggers": "Activador de missatge",
+  "newMessageTrigger": "Nou activador de missatge",
+  "reply": "Respondre",
+  "copyText": "Copiar text",
+  "copyTextSubtitle": "Mantingueu premut per copiar el text del missatge amb el nom d'usuari",
+  "deleteMessage": "Eliminar missatge",
+  "mentionUser": "Mencionar l'usuari",
+  "copyMessageId": "Copia l'identificador del missatge",
+  "theme": "Aspecte",
+  "userTrigger": "Activador d'usuari",
+  "userTriggers": "Activadors d'usuari",
+  "chatHistory": "Historial de xat",
+  "login": "Inici de sessió",
+  "newUserTrigger": "Nou activador d'usuari",
+  "ban": "Expulsar",
+  "unban": "Cancel·lar Expulsió",
+  "timeoutUserForDuration": "Expulsar temporalment per {duration}",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "El xat s'ha esborrat",
+  "permabanned": "expulsat indefinitivament",
+  "bannedForDuration": "expulsat per {duration}",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "Responent a",
+  "blockedMessage": "Missatge bloquejat",
+  "showMessage": "Mostra el missatge",
+  "hideMessage": "Amagar el missatge",
+  "scrollToBottom": "Desplaça al final",
+  "startUsingTheApp": "Per començar a utilitzar l'aplicació, afegiu un compte a continuació.",
+  "chatSettings": "Configuració del xat",
+  "autocompleteUsersWithAt": "Completa els usuaris automàticament amb @",
+  "autocompleteEmotesWithColon": "Completa els emotes automàticament amb :",
+  "language": "Llenguatge",
+  "locale": "Local",
+  "systemDefault": "Valors per defecte del sistema",
+  "justDefault": "Predeterminat",
+  "notifications": "Notificacions",
+  "noNotifications": "Algú, en algun lloc, t'esmentarà algun dia.",
+  "backgroundNotifications": "Background notifications",
+  "optionNotAvailableOnYourPlatform": "This option is not available on your platform.",
+  "optionNotAvailablePaywalled": "This option is for Chatsen supporters only.",
+  "clearAll": "Clear all",
+  "cache": "Cache",
+  "clearCache": "Clear cache",
+  "chatters": "Chatters",
+  "lastSeenAgo": "Last seen {time} ago",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Credits",
+  "search": "Search"
+}

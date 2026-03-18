@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "Prijavljen preko {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "Uslovi Korišćenja",
+  "privacyPolicy": "Pravila Privatnosti",
+  "settings": "Podešavanja",
+  "expiresNever": "Nikad ne ističe",
+  "expiresIn": "Ističe za {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "Zatvori",
+  "add": "Dodaj",
+  "cancel": "Otkaži",
+  "tokenInput": "Unos tokena",
+  "account": "Nalog",
+  "refreshAccount": "Osveži nalog",
+  "removeAccount": "Ukloni nalog",
+  "addAnotherAccount": "Dodaj novi nalog",
+  "verifiedUserData": "Verifikovani korisnički podaci!",
+  "loggedInAs": "Prijavljen/a kao {user}",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "Greška se pojavila tokom verifikacije korisničkih podataka:",
+  "verifyingUserData": "Verifikovanje korisničkih podataka...",
+  "verifiedUserToken": "Verifikovan korisnički token!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "Greška se pojavila tokom verifikovanja korisničkog tokena:",
+  "verifyingUserToken": "Verifikovanje korisničkog tokena...",
+  "searchForChannels": "Potraži kanale",
+  "recommendedChannels": "Preporučeni kanali",
+  "popularChannels": "Popularni kanali",
+  "channel": "Kanal",
+  "leaveChannel": "Napusti kanal",
+  "joinUser": "Pridruži se {user}",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "Pravopis neispravan! Da li ste misli da potražite {username}?",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "Pridruži se {channel}",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "Pošalji poruku u {channel}",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "Light",
+  "dark": "Dark",
+  "system": "System",
+  "appearance": "Appearance",
+  "highContrast": "High contrast",
+  "playStream": "Play stream",
+  "stopStream": "Stop stream",
+  "customCommand": "Custom command",
+  "customCommands": "Custom commands",
+  "newCustomCommand": "New custom command",
+  "commandTrigger": "Trigger",
+  "command": "Command",
+  "save": "Save",
+  "browserStreamSettings": "Browser/Stream Settings",
+  "addPage": "Add page",
+  "channelStream": "{channel}'s stream",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "Open in browser",
+  "messageAppearance": "Message appearance",
+  "showTimestamps": "Show timestamps",
+  "compactMessages": "Compact messages",
+  "messageTrigger": "Message trigger",
+  "pattern": "Pattern",
+  "mention": "Mention",
+  "block": "Block",
+  "enableRegex": "Enable regex",
+  "caseSensitive": "Case sensitive",
+  "messageTriggers": "Message triggers",
+  "newMessageTrigger": "New message trigger",
+  "reply": "Reply",
+  "copyText": "Copy text",
+  "copyTextSubtitle": "Hold to copy message text with username",
+  "deleteMessage": "Delete message",
+  "mentionUser": "Mention user",
+  "copyMessageId": "Copy message ID",
+  "theme": "Theme",
+  "userTrigger": "User trigger",
+  "userTriggers": "User triggers",
+  "chatHistory": "Chat history",
+  "login": "Login",
+  "newUserTrigger": "New user trigger",
+  "ban": "Ban",
+  "unban": "Unban",
+  "timeoutUserForDuration": "Timeout user for {duration}",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "Chat was cleared",
+  "permabanned": "permabanned",
+  "bannedForDuration": "banned for {duration}",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "Replying to",
+  "blockedMessage": "Blocked message",
+  "showMessage": "Show message",
+  "hideMessage": "Hide message",
+  "scrollToBottom": "Scroll to bottom",
+  "startUsingTheApp": "To start using the app, add an account below.",
+  "chatSettings": "Chat settings",
+  "autocompleteUsersWithAt": "Autocomplete users with @",
+  "autocompleteEmotesWithColon": "Autocomplete emotes with :",
+  "language": "Language",
+  "locale": "Locale",
+  "systemDefault": "System default",
+  "justDefault": "Default",
+  "notifications": "Notifications",
+  "noNotifications": "Someone, somewhere, will mention you someday.",
+  "backgroundNotifications": "Background notifications",
+  "optionNotAvailableOnYourPlatform": "This option is not available on your platform.",
+  "optionNotAvailablePaywalled": "This option is for Chatsen supporters only.",
+  "clearAll": "Clear all",
+  "cache": "Cache",
+  "clearCache": "Clear cache",
+  "chatters": "Chatters",
+  "lastSeenAgo": "Last seen {time} ago",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Credits",
+  "search": "Search"
+}

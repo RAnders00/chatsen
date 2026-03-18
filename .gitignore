@@ -1,0 +1,34 @@
+# Use the .gitignore as a whitelist instead of a blacklist
+*
+!*/
+
+# Fonts
+!/fonts/**/*.ttf
+
+# Source files
+!/lib/**/*.dart
+/lib/generated_plugin_registrant.dart
+/lib/**/*.g.dart
+
+# Localization files
+!/lib/l10n/**/*.arb
+
+# Flutter and dart project files
+!/analysis_options.yaml
+!/pubspec.yaml
+!/l10n.yaml
+
+# Fastlane
+!/ios/fastlane/Appfile
+!/ios/fastlane/Fastfile
+!/ios/fastlane/Matchfile
+!/ios/Gemfile
+
+# GitHub CI/CD workflow files
+!/.github/workflows/**/*.yml
+
+# Repository related files
+!/.gitignore
+!/README.md
+!/LICENSE
+!/crowdin.yml

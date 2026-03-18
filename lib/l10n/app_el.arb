@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "Συνδέθηκε μέσω {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "Όροι Χρήσης",
+  "privacyPolicy": "Πολιτική Απορρήτου",
+  "settings": "Ρυθμίσεις",
+  "expiresNever": "Δεν λήγει ποτέ",
+  "expiresIn": "Λήγει σε {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "Κλείσιμο",
+  "add": "Προσθήκη",
+  "cancel": "Ακύρωση",
+  "tokenInput": "Εισαγωγή token",
+  "account": "Λογαριασμός",
+  "refreshAccount": "Ανανέωση λογαριασμού",
+  "removeAccount": "Αφαίρεση λογαριασμού",
+  "addAnotherAccount": "Προσθήκη άλλου λογαριασμού",
+  "verifiedUserData": "Επαληθεύτηκαν τα δεδομένα χρήστη!",
+  "loggedInAs": "Συνδεθήκατε ως {user}",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "Παρουσιάστηκε ένα σφάλμα κατά την επαλήθευση δεδομένων χρήστη:",
+  "verifyingUserData": "Επαλήθευση δεδομένων χρήστη...",
+  "verifiedUserToken": "Επαληθεύτηκε το token χρήστη!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "Παρουσιάστηκε ένα σφάλμα κατά την επαλήθευση του token χρήστη:",
+  "verifyingUserToken": "Επαλήθευση token χρήστη...",
+  "searchForChannels": "Αναζήτηση για κανάλια",
+  "recommendedChannels": "Προτεινόμενα κανάλια",
+  "popularChannels": "Δημοφιλή κανάλια",
+  "channel": "Κανάλι",
+  "leaveChannel": "Αποχώρηση από κανάλι",
+  "joinUser": "Συμμετοχή στο {user}",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "Ο ορθογραφικός έλεγχος απέτυχε! Μήπως εννοούσατε να αναζητήσετε για {username};",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "Συμμετοχή στο {channel}",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "Στείλτε μήνυμα στο {channel}",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "Φωτεινή",
+  "dark": "Σκοτεινή",
+  "system": "Συστήματος",
+  "appearance": "Εμφάνιση",
+  "highContrast": "Υψηλή αντίθεση",
+  "playStream": "Αναπαραγωγή ροής",
+  "stopStream": "Διακοπή ροής",
+  "customCommand": "Προσαρμοσμένη εντολή",
+  "customCommands": "Προσαρμοσμένες εντολές",
+  "newCustomCommand": "Νέα προσαρμοσμένη εντολή",
+  "commandTrigger": "Συντόμευση",
+  "command": "Εντολή",
+  "save": "Αποθήκευση",
+  "browserStreamSettings": "Ρυθμίσεις Περιηγητή/Ροής",
+  "addPage": "Προσθήκη σελίδας",
+  "channelStream": "Ροή {channel}",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "Άνοιγμα στον περιηγητή",
+  "messageAppearance": "Εμφάνιση μηνύματος",
+  "showTimestamps": "Εμφάνιση χρονικών σημείων",
+  "compactMessages": "Συμπιεσμένα μηνύματα",
+  "messageTrigger": "Συντόμευση μηνύματος",
+  "pattern": "Μοτίβο",
+  "mention": "Επισήμανση",
+  "block": "Μπλοκ",
+  "enableRegex": "Ενεργοποίηση regex",
+  "caseSensitive": "Διάκριση πεζών-κεφαλαίων",
+  "messageTriggers": "Συντομεύσεις μηνύματος",
+  "newMessageTrigger": "Νέα συντόμευση μηνύματος",
+  "reply": "Απάντηση",
+  "copyText": "Αντιγραφή κειμένου",
+  "copyTextSubtitle": "Κρατήστε για αντιγραφή κειμένου μηνύματος με όνομα χρήστη",
+  "deleteMessage": "Διαγραφή μηνύματος",
+  "mentionUser": "Επισήμανση χρήστη",
+  "copyMessageId": "Αντιγραφή ID μηνύματος",
+  "theme": "Θέμα",
+  "userTrigger": "Συντόμευση χρήστη",
+  "userTriggers": "Συντομεύσεις χρήστη",
+  "chatHistory": "Ιστορικό συνομιλίας",
+  "login": "Σύνδεση",
+  "newUserTrigger": "Νέα συντόμευση χρήστη",
+  "ban": "Αποκλεισμός",
+  "unban": "Άρση αποκλεισμού",
+  "timeoutUserForDuration": "Timeout χρήστη για {duration}",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "Η συνομιλία εκκαθαρίστηκε",
+  "permabanned": "μόνιμα αποκλεισμένος",
+  "bannedForDuration": "αποκλείστηκε για {duration}",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "Απάντηση σε",
+  "blockedMessage": "Μπλοκαρισμένο μήνυμα",
+  "showMessage": "Εμφάνιση μηνύματος",
+  "hideMessage": "Απόκρυψη μηνύματος",
+  "scrollToBottom": "Κύλιση προς τα κάτω",
+  "startUsingTheApp": "Για να ξεκινήσετε να χρησιμοποιείτε την εφαρμογή, προσθέστε έναν λογαριασμό παρακάτω.",
+  "chatSettings": "Ρυθμίσεις συνομιλίας",
+  "autocompleteUsersWithAt": "Αυτόματη συμπλήρωση χρηστών με @",
+  "autocompleteEmotesWithColon": "Αυτόματη συμπλήρωση emote με :",
+  "language": "Γλώσσα",
+  "locale": "Γλωσσικές Ρυθμίσεις",
+  "systemDefault": "Προεπιλογή συστήματος",
+  "justDefault": "Προεπιλεγμένη",
+  "notifications": "Ειδοποιήσεις",
+  "noNotifications": "Κάποιος, κάπου, θα σας αναφέρει κάποια μέρα.",
+  "backgroundNotifications": "Ειδοποιήσεις παρασκηνίου",
+  "optionNotAvailableOnYourPlatform": "Αυτή η επιλογή δεν είναι διαθέσιμη στην πλατφόρμα σας.",
+  "optionNotAvailablePaywalled": "Αυτή η επιλογή είναι μόνο για υποστηρικτές του Chatsen.",
+  "clearAll": "Εκκαθάριση όλων",
+  "cache": "Προσωρινή μνήμη",
+  "clearCache": "Εκκαθάριση προσωρινής μνήμης",
+  "chatters": "Συνομιλητές",
+  "lastSeenAgo": "Τελευταία εμφάνιση {time} πριν",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Συντελεστές",
+  "search": "Αναζήτηση"
+}

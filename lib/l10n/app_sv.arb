@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "Inloggad via {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "Användarvillkor",
+  "privacyPolicy": "Integritetspolicy",
+  "settings": "Inställningar",
+  "expiresNever": "Går aldrig ut",
+  "expiresIn": "Upphör att gälla om {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "Stäng",
+  "add": "Lägg till",
+  "cancel": "Avbryt",
+  "tokenInput": "Tokeninmatning",
+  "account": "Konto",
+  "refreshAccount": "Uppdatera konto",
+  "removeAccount": "Ta bort konto",
+  "addAnotherAccount": "Lägg till annat konto",
+  "verifiedUserData": "Verifierad användardata!",
+  "loggedInAs": "Inloggad som {user}",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "Ett fel har uppstått vid verifiering av användardata:",
+  "verifyingUserData": "Veriferar användardata...",
+  "verifiedUserToken": "Veriferar användar-token!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "Ett fel har uppstått med veriferiring vid användar-token:",
+  "verifyingUserToken": "Veriferar använder-token...",
+  "searchForChannels": "Söker efter kanaler",
+  "recommendedChannels": "Rekommenderad kanaler",
+  "popularChannels": "Populära kanaler",
+  "channel": "Kanal",
+  "leaveChannel": "Lämna Kanal",
+  "joinUser": "Användare {user}",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "Stavningsfel misslyckades! Menade du att söka efter {username}?",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "Delta {channel}",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "Skicka meddelande i {channel}",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "Ljus",
+  "dark": "Mörk",
+  "system": "System",
+  "appearance": "Utseende",
+  "highContrast": "Hög kontrast",
+  "playStream": "Spela ström",
+  "stopStream": "Sluta ström",
+  "customCommand": "Anpassat kommando",
+  "customCommands": "Anpassade kommandon",
+  "newCustomCommand": "Nytt anpassat kommando",
+  "commandTrigger": "Utlösare",
+  "command": "Kommandot",
+  "save": "Spara",
+  "browserStreamSettings": "Webbläsare/ströminställningar",
+  "addPage": "Skapa sida",
+  "channelStream": "{channel}'s ström",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "Öppna i webbläsare",
+  "messageAppearance": "Meddelandets utseende",
+  "showTimestamps": "Visa tidsstämpel",
+  "compactMessages": "Kompakta meddelanden",
+  "messageTrigger": "Meddelande utlösare",
+  "pattern": "Mönster",
+  "mention": "Omnämnande",
+  "block": "Blockera",
+  "enableRegex": "Aktivera regex",
+  "caseSensitive": "Skiftlägeskänslighet",
+  "messageTriggers": "Meddelande utlösare",
+  "newMessageTrigger": "Nytt meddelande utlösare",
+  "reply": "Svara",
+  "copyText": "Kopiera text",
+  "copyTextSubtitle": "Håll för att kopiera meddelandetext med användarnamn",
+  "deleteMessage": "Radera meddelande",
+  "mentionUser": "Nämn användare",
+  "copyMessageId": "Kopiera meddelande-ID",
+  "theme": "Tema",
+  "userTrigger": "Utlösare för användare",
+  "userTriggers": "Utlösare för användare",
+  "chatHistory": "Chatthistorik",
+  "login": "Logga in",
+  "newUserTrigger": "Ny utlösare för användare",
+  "ban": "Bannlys",
+  "unban": "Unbanna",
+  "timeoutUserForDuration": "Timeout-användare för {duration}",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "Chatten var rensad",
+  "permabanned": "permabannad",
+  "bannedForDuration": "bannlyst för {duration}",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "Svarar på",
+  "blockedMessage": "Blockerat meddelande",
+  "showMessage": "Visa meddelandet",
+  "hideMessage": "Dölj meddelanden",
+  "scrollToBottom": "Skrolla till botten",
+  "startUsingTheApp": "För att börja använda appen, lägg till ett konto nedan.",
+  "chatSettings": "Chat settings",
+  "autocompleteUsersWithAt": "Autocomplete users with @",
+  "autocompleteEmotesWithColon": "Autocomplete emotes with :",
+  "language": "Language",
+  "locale": "Locale",
+  "systemDefault": "System default",
+  "justDefault": "Default",
+  "notifications": "Notifications",
+  "noNotifications": "Someone, somewhere, will mention you someday.",
+  "backgroundNotifications": "Background notifications",
+  "optionNotAvailableOnYourPlatform": "This option is not available on your platform.",
+  "optionNotAvailablePaywalled": "This option is for Chatsen supporters only.",
+  "clearAll": "Clear all",
+  "cache": "Cache",
+  "clearCache": "Clear cache",
+  "chatters": "Chatters",
+  "lastSeenAgo": "Last seen {time} ago",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Credits",
+  "search": "Search"
+}

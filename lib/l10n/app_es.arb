@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "Sesión iniciada a través de {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "Términos del Servicio",
+  "privacyPolicy": "Política de Privacidad",
+  "settings": "Ajustes",
+  "expiresNever": "Nunca expira",
+  "expiresIn": "Expira en {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "Cerrar",
+  "add": "Añadir",
+  "cancel": "Cancelar",
+  "tokenInput": "Introduzca un token",
+  "account": "Cuenta",
+  "refreshAccount": "Actualizar la cuenta",
+  "removeAccount": "Eliminar la cuenta",
+  "addAnotherAccount": "Añadir otra cuenta",
+  "verifiedUserData": "¡Datos de usuario verificados!",
+  "loggedInAs": "Sesión iniciada como {user}",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "Se ha producido un error al verificar los datos de usuario:",
+  "verifyingUserData": "Verificando datos de usuario...",
+  "verifiedUserToken": "¡Token de usuario verificado!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "Se ha producido un error al verificar el token de usuario:",
+  "verifyingUserToken": "Verificando token de usuario...",
+  "searchForChannels": "Buscar canales",
+  "recommendedChannels": "Canales recomendados",
+  "popularChannels": "Canales populares",
+  "channel": "Canal",
+  "leaveChannel": "Salir del canal",
+  "joinUser": "Unirse a {user}",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "La revisión ortográfica falló! Quizás quisiste buscar {username}?",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "Unirse a {channel}",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "Enviar mensaje en {channel}",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "Claro",
+  "dark": "Oscuro",
+  "system": "Sistema",
+  "appearance": "Apariencia",
+  "highContrast": "Contraste alto",
+  "playStream": "Reproducir stream",
+  "stopStream": "Detener stream",
+  "customCommand": "Comando personalizado",
+  "customCommands": "Comandos personalizados",
+  "newCustomCommand": "Nuevo comando personalizado",
+  "commandTrigger": "Activador",
+  "command": "Comando",
+  "save": "Guardar",
+  "browserStreamSettings": "Ajustes del Navegador/Stream",
+  "addPage": "Añadir página",
+  "channelStream": "Stream de {channel}",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "Abrir en el navegador",
+  "messageAppearance": "Apariencia del mensaje",
+  "showTimestamps": "Mostrar marcas de tiempo",
+  "compactMessages": "Mensajes compactos",
+  "messageTrigger": "Activador de mensaje",
+  "pattern": "Patrón",
+  "mention": "Mención",
+  "block": "Bloquear",
+  "enableRegex": "Activar regex",
+  "caseSensitive": "Distingue mayúsculas y minúsculas",
+  "messageTriggers": "Activadores de mensajes",
+  "newMessageTrigger": "Nuevo activador de mensaje",
+  "reply": "Responder",
+  "copyText": "Copiar texto",
+  "copyTextSubtitle": "Mantén pulsado para copiar el texto del mensaje con el nombre de usuario",
+  "deleteMessage": "Eliminar mensaje",
+  "mentionUser": "Mencionar usuario",
+  "copyMessageId": "Copiar ID del mensaje",
+  "theme": "Tema",
+  "userTrigger": "Activador de usuario",
+  "userTriggers": "Activadores de usuarios",
+  "chatHistory": "Historial del chat",
+  "login": "Iniciar sessión",
+  "newUserTrigger": "Nuevo activador de usuario",
+  "ban": "Banear",
+  "unban": "Desbanear",
+  "timeoutUserForDuration": "Banear usuario temporalmente por {duration}",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "El chat ha sido borrado",
+  "permabanned": "baneado permanentemente",
+  "bannedForDuration": "baneado por {duration}",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "Respondiendo a",
+  "blockedMessage": "Mensaje bloqueado",
+  "showMessage": "Mostrar mensaje",
+  "hideMessage": "Ocultar mensaje",
+  "scrollToBottom": "Ir hasta abajo",
+  "startUsingTheApp": "Para empezar a utilizar la aplicación, añade una cuenta a continuación.",
+  "chatSettings": "Ajustes del Chat",
+  "autocompleteUsersWithAt": "Autocompletar usuarios con @",
+  "autocompleteEmotesWithColon": "Autocompletar emotes con:",
+  "language": "Idioma",
+  "locale": "Local",
+  "systemDefault": "Utilizar valores por defecto",
+  "justDefault": "Por defecto",
+  "notifications": "Notificaciones",
+  "noNotifications": "Alguien, en algún lugar, te mencionará algún día.",
+  "backgroundNotifications": "Notificaciones en segundo plano",
+  "optionNotAvailableOnYourPlatform": "Esta opción no está disponible en tu plataforma.",
+  "optionNotAvailablePaywalled": "Esta opción es sólo para simpatizantes de Chatsen.",
+  "clearAll": "Borrar todo",
+  "cache": "Caché",
+  "clearCache": "Borrar caché",
+  "chatters": "Chatters",
+  "lastSeenAgo": "Last seen {time} ago",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Credits",
+  "search": "Search"
+}

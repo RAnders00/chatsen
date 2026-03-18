@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "Eingeloggt über {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "Nutzungsbedingungen",
+  "privacyPolicy": "Datenschutzrichtlinie",
+  "settings": "Einstellungen",
+  "expiresNever": "Läuft nie ab",
+  "expiresIn": "Läuft ab in {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "Schließen",
+  "add": "Hinzufügen",
+  "cancel": "Abbrechen",
+  "tokenInput": "Token eingeben",
+  "account": "Account",
+  "refreshAccount": "Account aktualisieren",
+  "removeAccount": "Account entfernen",
+  "addAnotherAccount": "Weiteren Account hinzufügen",
+  "verifiedUserData": "Benutzerdaten verifiziert!",
+  "loggedInAs": "Eingeloggt als {user}",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "Bei der Verifizierung der Benutzerdaten ist ein Fehler aufgetreten:",
+  "verifyingUserData": "Benutzerdaten werden verifiziert...",
+  "verifiedUserToken": "Benutzertoken verifiziert!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "Bei der Verifizierung des Benutzertokens ist ein Fehler aufgetreten:",
+  "verifyingUserToken": "Benutzertoken wird verifiziert...",
+  "searchForChannels": "Suche nach Kanälen",
+  "recommendedChannels": "Empfohlene Kanäle",
+  "popularChannels": "Beliebte Kanäle",
+  "channel": "Kanal",
+  "leaveChannel": "Kanal verlassen",
+  "joinUser": "{user} beitreten",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "Rechtschreibprüfung fehlgeschlagen! Meinen Sie {username}?",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "{channel} beitreten",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "Nachricht in {channel} senden",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "Hell",
+  "dark": "Dunkel",
+  "system": "System",
+  "appearance": "Darstellung",
+  "highContrast": "Hoher Kontrast",
+  "playStream": "Stream abspielen",
+  "stopStream": "Stream stoppen",
+  "customCommand": "Eigener Befehl",
+  "customCommands": "Eigene Befehle",
+  "newCustomCommand": "Befehl hinzufügen",
+  "commandTrigger": "Auslöser",
+  "command": "Befehl",
+  "save": "Speichern",
+  "browserStreamSettings": "Browser/Stream-Einstellungen",
+  "addPage": "Seite hinzufügen",
+  "channelStream": "{channel}'s Stream",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "Im Browser öffnen",
+  "messageAppearance": "Nachrichten",
+  "showTimestamps": "Uhrzeit anzeigen",
+  "compactMessages": "Kompakte Darstellung",
+  "messageTrigger": "Nachrichtenauslöser",
+  "pattern": "Begriff",
+  "mention": "Erwähnung",
+  "block": "Blockieren",
+  "enableRegex": "Regex verwenden",
+  "caseSensitive": "Groß-/Kleinschreibung beachten",
+  "messageTriggers": "Nachrichtenauslöser",
+  "newMessageTrigger": "Neuer Auslöser",
+  "reply": "Antworten",
+  "copyText": "Kopieren",
+  "copyTextSubtitle": "Halten, um mit Benutzernamen zu kopieren",
+  "deleteMessage": "Nachricht löschen",
+  "mentionUser": "Benutzer erwähnen",
+  "copyMessageId": "Nachrichten-ID kopieren",
+  "theme": "Farben",
+  "userTrigger": "Nutzerauslöser",
+  "userTriggers": "Nutzerauslöser",
+  "chatHistory": "Chatverlauf",
+  "login": "Login",
+  "newUserTrigger": "Neuer Auslöser",
+  "ban": "Sperren",
+  "unban": "Entsperren",
+  "timeoutUserForDuration": "Nutzer für {duration} sperren",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "Chatverlauf wurde geleert",
+  "permabanned": "permanent gesperrt",
+  "bannedForDuration": "für {duration} gesperrt",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "Antwort an",
+  "blockedMessage": "Blockierte Nachricht",
+  "showMessage": "Nachricht anzeigen",
+  "hideMessage": "Nachricht ausblenden",
+  "scrollToBottom": "Zum Ende springen",
+  "startUsingTheApp": "Fügen Sie unten ein Konto hinzu, um die App zu verwenden.",
+  "chatSettings": "Chateinstellungen",
+  "autocompleteUsersWithAt": "Benutzernamen mit @ vervollständigen",
+  "autocompleteEmotesWithColon": "Emotes mit : vervollständigen",
+  "language": "Sprache",
+  "locale": "Sprache",
+  "systemDefault": "Standard",
+  "justDefault": "Standard",
+  "notifications": "Benachrichtigungen",
+  "noNotifications": "Someone, somewhere, will mention you someday.",
+  "backgroundNotifications": "Hintergrundbenachrichtigungen",
+  "optionNotAvailableOnYourPlatform": "Diese Option ist nicht für Ihre Plattform verfügbar.",
+  "optionNotAvailablePaywalled": "Diese Option ist nur für Chatsen Unterstützer.",
+  "clearAll": "Alles löschen",
+  "cache": "Cache",
+  "clearCache": "Chache löschen",
+  "chatters": "Chatter",
+  "lastSeenAgo": "Zuletzt gesehen vor {time}",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Credits",
+  "search": "Search"
+}

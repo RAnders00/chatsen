@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "Đã đăng nhập qua {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "Điều khoản dịch vụ",
+  "privacyPolicy": "Chính sách quyền riêng tư",
+  "settings": "Cài đặt",
+  "expiresNever": "Không bao giờ hết hạn",
+  "expiresIn": "Hết hạn trong {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "Đóng",
+  "add": "Thêm",
+  "cancel": "Hủy bỏ",
+  "tokenInput": "Nhập Token",
+  "account": "Tài khoản",
+  "refreshAccount": "Làm mới tài khoản",
+  "removeAccount": "Gỡ bỏ tài khoản",
+  "addAnotherAccount": "Thêm tài khoản khác",
+  "verifiedUserData": "Đã xác nhận dữ liệu người dùng!",
+  "loggedInAs": "Đã đăng nhập với tư cách là {user}",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "Đã có lỗi xảy ra khi xác thực dữ liệu người dùng:",
+  "verifyingUserData": "Đang xác thực dữ liệu người dùng...",
+  "verifiedUserToken": "Đã xác nhận Token người dùng!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "Đã có lỗi xảy ra khi xác thực mã Token người dùng:",
+  "verifyingUserToken": "Đang xác thực mã Token người dùng...",
+  "searchForChannels": "Tìm kiếm kênh",
+  "recommendedChannels": "Các kênh đề xuất",
+  "popularChannels": "Các kênh phổ biến",
+  "channel": "Kênh",
+  "leaveChannel": "Rời kênh",
+  "joinUser": "Tham gia vào {user}",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "Kiểm tra chính tả thất bại! Có phải bạn muốn tìm {username}?",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "Tham gia vào {channel}",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "Gửi tin nhắn vào {channel}",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "Sáng",
+  "dark": "Tối",
+  "system": "Hệ thống",
+  "appearance": "Giao diện",
+  "highContrast": "Độ tương phản cao",
+  "playStream": "Phát",
+  "stopStream": "Ngừng phát",
+  "customCommand": "Lệnh tùy chỉnh",
+  "customCommands": "Lệnh tùy chỉnh",
+  "newCustomCommand": "Tạo lệnh tùy chỉnh mới",
+  "commandTrigger": "Từ khóa Kích hoạt",
+  "command": "Lệnh",
+  "save": "Lưu",
+  "browserStreamSettings": "Cài đặt Trình duyệt/Stream",
+  "addPage": "Thêm trang",
+  "channelStream": "Kênh stream {channel}",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "Mở trong trình duyệt",
+  "messageAppearance": "Giao diện tin nhắn",
+  "showTimestamps": "Hiển thị thời gian",
+  "compactMessages": "Tin nhắn nhỏ gọn",
+  "messageTrigger": "Bộ lọc tin nhắn",
+  "pattern": "Nội dung",
+  "mention": "Nhắc đến",
+  "block": "Chặn",
+  "enableRegex": "Bật regex",
+  "caseSensitive": "Phân biệt in hoa",
+  "messageTriggers": "Bộ lọc tin nhắn",
+  "newMessageTrigger": "Tạo bộ lọc tin nhắn mới",
+  "reply": "Trả lời",
+  "copyText": "Sao chép văn bản",
+  "copyTextSubtitle": "Giữ để sao chép tin nhắn với tên người dùng",
+  "deleteMessage": "Xóa tin nhắn",
+  "mentionUser": "Nhắc tên người dùng",
+  "copyMessageId": "Sao chép ID tin nhắn",
+  "theme": "Màu chủ đề",
+  "userTrigger": "Bộ lọc người dùng",
+  "userTriggers": "Bộ lọc người dùng",
+  "chatHistory": "Lịch sử chat",
+  "login": "Tên người dùng",
+  "newUserTrigger": "Tạo bộ lọc người dùng mới",
+  "ban": "Cấm",
+  "unban": "Gỡ cấm",
+  "timeoutUserForDuration": "Cấm chat người dùng trong {duration}",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "Chat đã được xóa",
+  "permabanned": "đã bị cấm vĩnh viễn",
+  "bannedForDuration": "bị cấm trong {duration}",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "Trả lời cho",
+  "blockedMessage": "Tin nhắn bị chặn",
+  "showMessage": "Hiển thị tin nhắn",
+  "hideMessage": "Ẩn tin nhắn",
+  "scrollToBottom": "Cuộn xuống cuối",
+  "startUsingTheApp": "Để bắt đầu sử dụng, hãy thêm một tài khoản bên dưới.",
+  "chatSettings": "Cài đặt Chat",
+  "autocompleteUsersWithAt": "Tự động gợi ý người dùng sau dấu @",
+  "autocompleteEmotesWithColon": "Tự động gợi ý emotes sau dấu :",
+  "language": "Ngôn ngữ",
+  "locale": "Ngôn ngữ",
+  "systemDefault": "Mặc định theo hệ thống",
+  "justDefault": "Mặc định",
+  "notifications": "Thông báo",
+  "noNotifications": "Một ai đó, ở đâu đó, sẽ nhắc đến bạn vào một ngày nào đó.",
+  "backgroundNotifications": "Thông báo trong nền",
+  "optionNotAvailableOnYourPlatform": "Tùy chọn này không có sẵn trên nền tảng của bạn.",
+  "optionNotAvailablePaywalled": "Tùy chọn này chỉ dành cho người dùng ủng hộ Chatsen.",
+  "clearAll": "Xoá tất cả",
+  "cache": "Bộ nhớ đệm",
+  "clearCache": "Xóa bộ nhớ đệm",
+  "chatters": "Người trò chuyện",
+  "lastSeenAgo": "Nhìn thấy lần cuối {time} trước",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Credits",
+  "search": "Search"
+}

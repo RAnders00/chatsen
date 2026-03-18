@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "다음 방식으로 로그인 됨: {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "이용 약관",
+  "privacyPolicy": "개인정보처리방침",
+  "settings": "설정",
+  "expiresNever": "절대 만료되지 않음",
+  "expiresIn": "{time} 후 만료",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "닫기",
+  "add": "추가",
+  "cancel": "취소",
+  "tokenInput": "토큰 입력",
+  "account": "계정",
+  "refreshAccount": "계정 새로고침",
+  "removeAccount": "계정 삭제",
+  "addAnotherAccount": "다른 계정 추가",
+  "verifiedUserData": "유저 데이터 확인됨!",
+  "loggedInAs": "{user} 으로 로그인 됨",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "유저 데이터를 확인하는데 오류가 발생하였습니다:",
+  "verifyingUserData": "유저 데이터 확인중...",
+  "verifiedUserToken": "유저 토큰 확인됨!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "유저 토큰을 확인하는데 오류가 발생하였습니다:",
+  "verifyingUserToken": "유저 토큰 확인중...",
+  "searchForChannels": "채널 검색",
+  "recommendedChannels": "추천 채널",
+  "popularChannels": "인기있는 채널",
+  "channel": "채널",
+  "leaveChannel": "채널 나가기",
+  "joinUser": "{user} 로 접속",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "스펠링 체크에 실패했습니다! 혹시 {username} 을 찾으셨나요?",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "{channel} 참가하기",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "{channel} 에 메세지를 보내기",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "밝게",
+  "dark": "어둡게",
+  "system": "시스템 설정",
+  "appearance": "배경",
+  "highContrast": "고대비",
+  "playStream": "스트림 재생",
+  "stopStream": "스트림 중지",
+  "customCommand": "커스텀 커맨드",
+  "customCommands": "커스텀 커맨드",
+  "newCustomCommand": "새로운 커스텀 커맨드",
+  "commandTrigger": "트리거",
+  "command": "커맨드",
+  "save": "세이브",
+  "browserStreamSettings": "브라우저/스트림 설정",
+  "addPage": "페이지 추가",
+  "channelStream": "{channel}의 스트림",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "브라우저에서 열기",
+  "messageAppearance": "메시지 외관",
+  "showTimestamps": "타임 스탬프 표시",
+  "compactMessages": "메시지 컴팩트화",
+  "messageTrigger": "메시지 트리거",
+  "pattern": "패턴",
+  "mention": "멘션",
+  "block": "블락",
+  "enableRegex": "regex 활성화",
+  "caseSensitive": "대소문자 구분",
+  "messageTriggers": "메시지 트리거",
+  "newMessageTrigger": "새로운 메시지 트리거",
+  "reply": "답장",
+  "copyText": "텍스트 복사",
+  "copyTextSubtitle": "텍스트와 사용자 이름을 오래 눌러 복사",
+  "deleteMessage": "메시지 삭제",
+  "mentionUser": "멘션 유저",
+  "copyMessageId": "메시지 ID 복사",
+  "theme": "테마",
+  "userTrigger": "사용자 트리거",
+  "userTriggers": "사용자 트리거",
+  "chatHistory": "채팅 기록",
+  "login": "로그인",
+  "newUserTrigger": "새로운 사용자 트리거",
+  "ban": "밴",
+  "unban": "밴 취소",
+  "timeoutUserForDuration": "사용자를 {duration} 동안 타임아웃",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "채팅이 청소되었습니다",
+  "permabanned": "영구 밴",
+  "bannedForDuration": "{duration}동안 밴됨",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "~에 답장",
+  "blockedMessage": "차단된 메시지",
+  "showMessage": "메시지 보기",
+  "hideMessage": "메시지 숨기기",
+  "scrollToBottom": "맨 아래로 스크롤",
+  "startUsingTheApp": "앱을 사용하기 위해서 하단에 계정을 추가하세요.",
+  "chatSettings": "채팅 설정",
+  "autocompleteUsersWithAt": "@로 시작하여 사용자명을 자동 완성",
+  "autocompleteEmotesWithColon": ":로 시작하여 이모티콘을 자동완성",
+  "language": "언어",
+  "locale": "지역",
+  "systemDefault": "시스템 기본값",
+  "justDefault": "기본값",
+  "notifications": "알림",
+  "noNotifications": "누군가, 어디서든, 언젠간 당신에게 멘션을 보낼 것입니다.",
+  "backgroundNotifications": "백그라운드 알림",
+  "optionNotAvailableOnYourPlatform": "해당 옵션은 사용자의 플랫폼에서 사용할 수 없습니다.",
+  "optionNotAvailablePaywalled": "해당 옵션은 Chatsen 후원자 전용 옵션입니다.",
+  "clearAll": "모두 지우기",
+  "cache": "캐시",
+  "clearCache": "캐시 지우기",
+  "chatters": "Chatters",
+  "lastSeenAgo": "Last seen {time} ago",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Credits",
+  "search": "Search"
+}

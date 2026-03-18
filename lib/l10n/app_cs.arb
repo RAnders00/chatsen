@@ -1,0 +1,160 @@
+{
+  "chatsen": "Chatsen",
+  "catsen": "Catsen",
+  "loggedInVia": "Přihlášen jako {provider}",
+  "@loggedInVia": {
+    "placeholders": {
+      "provider": {"type": "String"}
+    }
+  },
+  "termsOfService": "Podmínky služby",
+  "privacyPolicy": "Zásady ochrany osobních údajů",
+  "settings": "Nastavení",
+  "expiresNever": "Nikdy nevyprší",
+  "expiresIn": "Vyprší v {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "close": "Zavřít",
+  "add": "Přidat",
+  "cancel": "Zrušit",
+  "tokenInput": "Vložení tokenu",
+  "account": "Účet",
+  "refreshAccount": "Načíst účet",
+  "removeAccount": "Odstranit účet",
+  "addAnotherAccount": "Přidat jiný účet",
+  "verifiedUserData": "Data úspěšně ověřena!",
+  "loggedInAs": "Přihlášen jako {user}",
+  "@loggedInAs": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "anErrorHasOccuredWhenVerifyingUserData": "Při ověřování osobních dat se objevil problém:",
+  "verifyingUserData": "Ověřuji user data...",
+  "verifiedUserToken": "Token ověřen!",
+  "anErrorHasOccuredWhenVerifyingUserToken": "Při ověřování tokenu uživatele se objevil problém:",
+  "verifyingUserToken": "Ověřování tokenu uživatele...",
+  "searchForChannels": "Hledat kanály",
+  "recommendedChannels": "Doporučené kanály",
+  "popularChannels": "Populární kanály",
+  "channel": "Kanál",
+  "leaveChannel": "Opustit kanál",
+  "joinUser": "Připojit se k {user}",
+  "@joinUser": {
+    "placeholders": {
+      "user": {"type": "String"}
+    }
+  },
+  "spellCheckFailed": "Kontrola pravopisu se nezdařila! Měli jste na mysli {username}?",
+  "@spellCheckFailed": {
+    "placeholders": {
+      "username": {"type": "String"}
+    }
+  },
+  "joinChannelName": "Připojit se k {channel}",
+  "@joinChannelName": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "sendMessageIn": "Poslat zprávu v {channel}",
+  "@sendMessageIn": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "light": "Světlý",
+  "dark": "Tmavý",
+  "system": "Systém",
+  "appearance": "Vzhled",
+  "highContrast": "Vysoký kontrast",
+  "playStream": "Spustit vysílání",
+  "stopStream": "Zastavit vysílání",
+  "customCommand": "Vlastní příkaz",
+  "customCommands": "Vlastní příkazy",
+  "newCustomCommand": "Nový vlastní příkaz",
+  "commandTrigger": "Spouštěč",
+  "command": "Příkaz",
+  "save": "Uložit",
+  "browserStreamSettings": "Prohlížeč/Nastavení Vysílání",
+  "addPage": "Přidat stranu",
+  "channelStream": "vysílání uživatele {channel}",
+  "@channelStream": {
+    "placeholders": {
+      "channel": {"type": "String"}
+    }
+  },
+  "openInBrowser": "Otevřít v prohlížeči",
+  "messageAppearance": "Vzhled zprávy",
+  "showTimestamps": "Zobrazit časové údaje",
+  "compactMessages": "Kompaktní zprávy",
+  "messageTrigger": "Spouštěč zprávy",
+  "pattern": "Vzor",
+  "mention": "Zmínka",
+  "block": "Zablokovat",
+  "enableRegex": "Povolit regex",
+  "caseSensitive": "Rozlišit malá a velká písmena",
+  "messageTriggers": "Spouštěče zpráv",
+  "newMessageTrigger": "Nový spouštěč zprávy",
+  "reply": "Odpovědět",
+  "copyText": "Zkopírovat text",
+  "copyTextSubtitle": "Přidržením zkopírujete zprávu s uživatelským jménem",
+  "deleteMessage": "Smazat zprávu",
+  "mentionUser": "Zmínit uživatele",
+  "copyMessageId": "Zkopírovat ID zprávy",
+  "theme": "Vzhled",
+  "userTrigger": "Spouštěč uživatele",
+  "userTriggers": "Spouštěče uživatele",
+  "chatHistory": "Historie zpráv",
+  "login": "Přihlášení",
+  "newUserTrigger": "Nový spouštěč uživatele",
+  "ban": "Zabanovat",
+  "unban": "Odbanovat",
+  "timeoutUserForDuration": "Dočasně zablokovat uživatele na {duration}",
+  "@timeoutUserForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "chatCleared": "Chat byl vymazán",
+  "permabanned": "trvale zabanován",
+  "bannedForDuration": "zabanován po dobu {duration}",
+  "@bannedForDuration": {
+    "placeholders": {
+      "duration": {"type": "String"}
+    }
+  },
+  "replyingTo": "Odpovědět na",
+  "blockedMessage": "Zablokovaná zpráva",
+  "showMessage": "Zobrazit zprávu",
+  "hideMessage": "Skrýt zprávu",
+  "scrollToBottom": "Přejít na konec",
+  "startUsingTheApp": "Chcete-li začít používat aplikaci, přidejte níže svůj účet.",
+  "chatSettings": "Chat settings",
+  "autocompleteUsersWithAt": "Autocomplete users with @",
+  "autocompleteEmotesWithColon": "Autocomplete emotes with :",
+  "language": "Language",
+  "locale": "Locale",
+  "systemDefault": "System default",
+  "justDefault": "Default",
+  "notifications": "Notifications",
+  "noNotifications": "Someone, somewhere, will mention you someday.",
+  "backgroundNotifications": "Background notifications",
+  "optionNotAvailableOnYourPlatform": "This option is not available on your platform.",
+  "optionNotAvailablePaywalled": "This option is for Chatsen supporters only.",
+  "clearAll": "Clear all",
+  "cache": "Cache",
+  "clearCache": "Clear cache",
+  "chatters": "Chatters",
+  "lastSeenAgo": "Last seen {time} ago",
+  "@lastSeenAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "credits": "Credits",
+  "search": "Search"
+}
